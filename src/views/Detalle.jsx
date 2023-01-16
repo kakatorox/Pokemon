@@ -36,7 +36,7 @@ export default function Detalle() {
                     <Card.Title>
                         <b>{pokemon.name?.toUpperCase()}</b>
                         <br/> 
-                        Posicion: {pokemon?.id}</Card.Title>
+                        Pokedex Posicion: {pokemon?.id}</Card.Title>
                     <Card.Text>
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
