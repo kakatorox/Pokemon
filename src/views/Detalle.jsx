@@ -29,19 +29,15 @@ export default function Detalle() {
     };
 
     return (
-        <div className='d-flex justify-content-center pt-5'>
+        <div className='d-flex justify-content-center pt-5 imagenDetalle'>
             <Card style={{ width: '25rem' }}>
-                <Card.Img variant="top" src={pokemon?.img} />
                 <Card.Body>
                     <Card.Title>
-                        <b>{pokemon.name?.toUpperCase()}</b>
-                        <br/> 
-                        Pokedex Posicion: {pokemon?.id}</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                    </Card.Text>
+                        <h3><b>{pokemon.name?.toUpperCase()}</b></h3>
+                        Pokedex Posicion: {pokemon?.id}
+                    </Card.Title>
                 </Card.Body>
+                <Card.Img variant="top" src={pokemon?.img} />
                 <div style={{ width: '100%', display: 'flex' }}>
                     <div style={{ width: '50%', textTransform: 'capitalize' }}>
                         <h4>Stats</h4>
@@ -64,7 +60,8 @@ export default function Detalle() {
                         
                     </div>
                 </div>
-            </Card>
+                <br /> 
+            </Card>            
         </div> 
     );
 }

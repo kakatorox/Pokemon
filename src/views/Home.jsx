@@ -1,5 +1,5 @@
 
-import Logo from '../assets/840_560.jpeg';
+import Logo from '../assets/img/840_560.jpeg';
 export default function Home() {
    
     

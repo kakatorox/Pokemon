@@ -38,12 +38,14 @@ export default function Pokemones() {
     return (
         <div className="mt-5">
             <h2>Selecciona un pokemon</h2>  
-            <button className='btn btn-warning text-white mt-3 mb-3' onClick={irPokemon}> Ver Pokemon</button>
+            
             <div style={{width:350, margin:'0 auto', textTransform:'capitalize'}}>
                 <Select
+                    placeholder='Elija su Pokémon'
+                    value={pokemon}
                     options={listadoPokemon}
                     onChange={handleSelect}
-                />
+                /><button className='btn btn-danger text-white mt-3 mb-3' onClick={irPokemon}> Ver Pokemon</button>
             </div>           
         </div>
     );

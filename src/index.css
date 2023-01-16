@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.imagenDetalle {
+  background-image: url("./assets/img/FondoDetalle.jpg");
+  background-color: #cccccc;
+}
+
+a{
+  color: crimson!important;
+  text-decoration: none!important;
+}
+
+a:hover{
+  color:darkgray!important;
+}
