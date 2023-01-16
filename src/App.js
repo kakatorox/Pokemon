@@ -7,7 +7,7 @@ import Detalle from './views/Detalle';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="Pokemon">
         <Navbars />
         <Routes>
           <Route path="/" element={<Home />} />
