@@ -29,7 +29,7 @@ export default function Detalle() {
     };
 
     return (
-        <div className='d-flex justify-content-center pt-5 imagenDetalle'>
+        <div className='d-flex justify-content-center pt-5'>
             <Card style={{ width: '25rem' }}>
                 <Card.Body>
                     <Card.Title>

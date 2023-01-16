@@ -37,7 +37,7 @@ export default function Pokemones() {
 
     return (
         <div className="mt-5">
-            <h2>Selecciona un pokemon</h2>  
+            <h2 style={{ color: 'white' }} className="mb-5">Selecciona un pokemon</h2>  
             
             <div style={{width:350, margin:'0 auto', textTransform:'capitalize'}}>
                 <Select
