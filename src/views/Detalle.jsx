@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
+import Pokemones from "./Pokemones";
 
 export default function Detalle() {
     const { nombre } = useParams();
@@ -30,6 +31,7 @@ export default function Detalle() {
 
     return (
         <div className='d-flex justify-content-center pt-5'>
+            
             <Card style={{ width: '25rem' }}>
                 <Card.Body>
                     <Card.Title>
